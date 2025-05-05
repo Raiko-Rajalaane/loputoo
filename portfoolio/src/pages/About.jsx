@@ -1,7 +1,7 @@
 
 function About() {
   return (
-    <div>
+    <div className="mt-4">
       About me...
     </div>
   )

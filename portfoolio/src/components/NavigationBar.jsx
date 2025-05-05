@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
-function CollapsibleNavbar() {
+function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
@@ -21,4 +21,4 @@ function CollapsibleNavbar() {
   );
 }
 
-export default CollapsibleNavbar;
+export default NavigationBar;

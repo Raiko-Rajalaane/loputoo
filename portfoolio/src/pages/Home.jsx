@@ -2,7 +2,8 @@
 function Home() {
   return (
     <div>
-      <div>Hi, I'm Raiko...</div>
+      <h1>Hi, I'm Raiko Rajalaane</h1>
+      <p>Welcome to my portfolio. I'll add projects soon...</p>
     </div>
   )
 }

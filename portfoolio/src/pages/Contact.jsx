@@ -1,8 +1,9 @@
+import { ContactForm } from "../components/ContactForm"
 
 function Contact() {
   return (
     <div className="mt-4">
-      Contact me...
+      <ContactForm />
     </div>
   )
 }

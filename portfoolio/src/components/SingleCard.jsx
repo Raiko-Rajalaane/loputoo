@@ -1,20 +1,23 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 
-function SingleCard() {
+import Button from 'react-bootstrap/Button';
+import Card   from 'react-bootstrap/Card';
+
+export default function SingleCard({ title, description, imgSrc, liveUrl, gitUrl }) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/project_img.jpg" />
-      <Card.Body>
-        <Card.Title>Project I</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="dark">View live</Button>
+    <Card style={{ width: '18rem' }} className="mb-4">
+      <Card.Img variant="top" src={imgSrc} />
+      <Card.Body className="d-flex flex-column">
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{description}</Card.Text>
+        <div className="mt-auto d-flex flex-column">
+          <Button variant="dark" href={liveUrl} target="_blank" className="mb-2">
+            View live
+          </Button>
+          <Button variant="dark" href={gitUrl} target="_blank">
+            GitHub
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );
 }
-
-export default SingleCard;

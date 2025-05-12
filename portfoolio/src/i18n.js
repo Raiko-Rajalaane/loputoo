@@ -5,7 +5,7 @@ const resources = {
   en: {
     translation: {
       "home.header": "Hi, I'm Raiko Rajalaane. ",
-      "home.subheader": "Welcome to my portfolio. I'll add <a>projects</a> soon..."
+      "home.subheader": "Welcome to my portfolio. I'll add more <a>projects</a> soon..."
     }
   },
   et: {

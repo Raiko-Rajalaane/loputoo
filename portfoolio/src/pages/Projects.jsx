@@ -23,7 +23,7 @@ export default function Projects() {
         className="text-decoration-underline text-primary"
         style={{ cursor: "pointer" }}
       >
-        Have a look at the stuff I’ve learned.
+        Have a look at the stuff I’ve learned along the way.
       </Link>
     </div>
   );

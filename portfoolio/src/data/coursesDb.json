@@ -25,26 +25,27 @@
   },
   {
     "id": 4,
-    "title": "VS Code",
-    "description": "Visual Studio Code — Code editor redefined and optimized for building and debugging modern web and cloud applications.",
-    "imgSrc": "https://avatars.githubusercontent.com/u/6154722?v=4",
-    "liveUrl": "https://code.visualstudio.com",
-    "gitUrl": "https://github.com/microsoft/vscode"
-  },
-  {
-    "id": 5,
-    "title": "Bootstrap",
-    "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-    "imgSrc": "https://avatars.githubusercontent.com/u/2918581?v=4",
-    "liveUrl": "https://getbootstrap.com",
-    "gitUrl": "https://github.com/twbs/bootstrap"
-  },
-  {
-    "id": 6,
     "title": "Vue.js",
     "description": "The Progressive JavaScript Framework.",
     "imgSrc": "https://avatars.githubusercontent.com/u/6128107?v=4",
     "liveUrl": "https://vuejs.org",
     "gitUrl": "https://github.com/vuejs/vue"
+  },
+  {
+    "id": 5,
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "imgSrc": "https://avatars.githubusercontent.com/u/67109815?v=4",
+    "liveUrl": "https://tailwindcss.com",
+    "gitUrl": "https://github.com/tailwindlabs/tailwindcss"
+  },
+  {
+    "id": 6,
+    "title": "Bootstrap",
+    "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+    "imgSrc": "https://avatars.githubusercontent.com/u/2918581?v=4",
+    "liveUrl": "https://getbootstrap.com",
+    "gitUrl": "https://github.com/twbs/bootstrap"
   }
+  
 ]
